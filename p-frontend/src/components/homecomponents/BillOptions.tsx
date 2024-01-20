@@ -33,7 +33,7 @@ const BillOptions = () => {
 						</div>
 						<div>
 							<div className='flex justify-center'>
-								<Link to='/dth'>
+								<Link to='/'>
 								<div>
 									<img src='https://assetscdn1.paytm.com/images/catalog/view_item/733311/1626251101045.png' alt="error" className="w-[64px]" />
 									<p className='mt-4 text-white'>Recharge</p>
@@ -45,7 +45,7 @@ const BillOptions = () => {
 						</div>
 						<div>
 							<div className='flex justify-center'>
-								<Link to='/cyclinder'>
+								<Link to='/'>
 								<div>
 									<img src='https://assetscdn1.paytm.com/images/catalog/view_item/733307/1626251127863.png' alt="error" className="w-[64px]" />
 									<p className='mt-4 text-white'>Book</p>
@@ -57,7 +57,7 @@ const BillOptions = () => {
 						</div>
 						<div>
 							<div className='flex justify-center'>
-								<Link to='/broadband'>
+								<Link to='/'>
 								<div>
 									<img src='https://assetscdn1.paytm.com/images/catalog/view_item/1269194/1672827522093.png' alt="error" className="w-[64px]" />
 									<p className='mt-4 text-white'>Pay</p>
@@ -69,7 +69,7 @@ const BillOptions = () => {
 						</div>
 						<div>
 							<div className='flex justify-center'>
-								<Link to='/eduction'>
+								<Link to='/'>
 								<div>
 									<img src='https://assetscdn1.paytm.com/images/catalog/view_item/1269198/1672828917034.png' alt="error" className="w-[64px]" />
 									<p className='mt-4 text-white'>Pay</p>
