@@ -54,7 +54,7 @@ const Login: React.FC<Props> = ({ open, setOpen }) => {
 				})
 
 			} else {
-			
+
 				if (!name || !phone || !password) {
 					alert("Please fill all fields ")
 					return
@@ -113,7 +113,9 @@ const Login: React.FC<Props> = ({ open, setOpen }) => {
 			<Dialog open={open} onOpenChange={() => { setOpen(false), setLoginOrRegister(false) }} >
 				<DialogContent className="sm:max-w-[425px]">
 					<DialogHeader>
-						<DialogTitle>Register your Paytm account</DialogTitle>
+						<DialogTitle>
+							{loginOrRegister ? 'Login in your account' : 'Register your Paytm account'}
+						</DialogTitle>
 						<DialogDescription className=''>
 							Make changes to your profile here. Click save when you're done.
 						</DialogDescription>

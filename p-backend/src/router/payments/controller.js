@@ -36,11 +36,6 @@ const addMoneyController = async (req) => {
 }
 
 
-setTimeout( async() => {
-	const userData = await User.findById('65aaec54116e9600de0ff7f0')
-	console.log(userData)
-	
-}, 200);
 
 const createPayment = async (req) => {
 	try {
